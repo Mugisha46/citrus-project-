@@ -684,7 +684,7 @@ function Solution(){
           <p style={{color:"rgba(255,255,255,.48)",fontFamily:"Inter,sans-serif",maxWidth:480,margin:"0 auto 36px",lineHeight:1.75}}>
             Our interactive prototype lets you experience what it feels like to be a Youth Enterprise Hub member — from registration to business launch, guided by Citrus AI.
           </p>
-          <Btn label="Launch YEHUB Prototype →" onClick={()=>{}}/>
+          <Btn label="Launch YEHUB Prototype →" onClick={()=>window.open(CITRUS_URL, "_blank", "noopener,noreferrer")}/>
         </Reveal>
       </section>
     </div>
