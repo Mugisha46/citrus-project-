@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 const N="#0B1E3D",ND="#06111F",NM="#112744",NL="#1A3260";
 const W="#FFFFFF",F8="#F8FAFC",F0="#F0F4F8",E2="#E2EAF0";
 const T1="#0F172A",T3="#334155",T6="#64748B";
+const CITRUS_URL="https://citrus-project-4pqd.vercel.app/";
 
 /* ═══════════════════════════════════════ DATA ════════════════════════════════ */
 const TEAM = [
