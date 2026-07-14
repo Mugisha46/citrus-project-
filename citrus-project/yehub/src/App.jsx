@@ -7,7 +7,7 @@ const G="#1B5E20",GL="#E8F5E9";
 const AM="#E65100",AML="#FFF3E0";
 const W="#FFFFFF",F8="#F8FAFC",F0="#F0F4F8",E2="#E2EAF0";
 const T1="#0F172A",T3="#334155",T6="#64748B";
-const CITRUS_URL="https://citrus-alu.vercel.app";
+const CITRUS_URL="https://citrus-project.vercel.app/";
 
 /* ═══ STATIC DATA ═══════════════════════════════════════════ */
 const STAGE_CONTENT=[
