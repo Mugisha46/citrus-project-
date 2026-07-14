@@ -1,0 +1,9 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:#F8FAFC;}
+img{max-width:100%;display:block;}
+@keyframes floatA{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-22px) scale(1.04);}}
+@keyframes floatB{0%,100%{transform:translateY(0);}50%{transform:translateY(18px);}}
+@keyframes floatC{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-14px) rotate(3deg);}}
+@keyframes floatD{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(12px) rotate(-2deg);}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
