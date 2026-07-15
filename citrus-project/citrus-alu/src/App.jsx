@@ -706,55 +706,55 @@ function Team(){
 {/* Photo area */}
 <div
   style={{
-    background:`linear-gradient(140deg,${COLORS[i]},${NL})`,
-    height:180,
-    display:"flex",
-    alignItems:"center",
-    justifyContent:"center",
-    position:"relative"
+    height:220,
+    overflow:"hidden",
+    position:"relative",
+    background:"#1A3260"
   }}
 >
+  <img
+    src={m.photo}
+    alt={m.name}
+    style={{
+      width:"100%",
+      height:"100%",
+      objectFit:"cover",
+      objectPosition:"center"
+    }}
+  />
+
+  {/* Dark overlay */}
   <div
     style={{
-      width:110,
-      height:110,
-      borderRadius:"50%",
-      overflow:"hidden",
-      border:"3px solid rgba(255,255,255,.45)",
-      boxShadow:"0 12px 30px rgba(0,0,0,.28)",
-      background:"rgba(255,255,255,.1)"
+      position:"absolute",
+      inset:0,
+      background:"linear-gradient(to top, rgba(11,30,61,.65), rgba(11,30,61,.15))"
+    }}
+  />
+
+  {/* Role badge */}
+  <div
+    style={{
+      position:"absolute",
+      bottom:14,
+      right:14
     }}
   >
-    <img
-      src={m.photo}
-      alt={`${m.name} - ${m.role}`}
-      style={{
-        width:"100%",
-        height:"100%",
-        objectFit:"cover",
-        objectPosition:"center",
-        display:"block"
-      }}
-    />
-  </div>
-
-  <div style={{position:"absolute",bottom:14,right:14}}>
     <span
       style={{
-        background:"rgba(255,255,255,.15)",
+        background:"rgba(255,255,255,.18)",
         color:W,
         fontFamily:"Space Mono,monospace",
         fontSize:9,
-        padding:"3px 8px",
-        borderRadius:4,
-        letterSpacing:".05em",
-        textTransform:"uppercase"
+        padding:"4px 10px",
+        borderRadius:4
       }}
     >
       {m.role}
     </span>
   </div>
-</div>                  {/* Info */}
+</div>
+                  {/* Info */}
                   <div style={{padding:"22px 24px 26px"}}>
                     <h3 style={{fontFamily:"Playfair Display,serif",color:N,fontSize:20,marginBottom:4,fontWeight:700}}>{m.name}</h3>
                     <p style={{color:T6,fontFamily:"Space Mono,monospace",fontSize:10,marginBottom:14,textTransform:"uppercase",letterSpacing:".06em"}}>{m.role}</p>
