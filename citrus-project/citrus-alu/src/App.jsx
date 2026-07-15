@@ -703,16 +703,58 @@ function Team(){
             {TEAM.map((m,i)=>(
               <Reveal key={i} delay={i*70}>
                 <HCard style={{background:W,borderRadius:18,overflow:"hidden"}}>
-                  {/* Photo area */}
-                  <div style={{background:`linear-gradient(140deg,${COLORS[i]},${NL})`,height:180,display:"flex",alignItems:"center",justifyContent:"center",position:"relative"}}>
-                    <div style={{width:88,height:88,borderRadius:"50%",background:"rgba(255,255,255,.1)",border:"2px solid rgba(255,255,255,.3)",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                      <span style={{fontFamily:"Playfair Display,serif",color:W,fontSize:28,fontWeight:700}}>{m.initials}</span>
-                    </div>
-                    <div style={{position:"absolute",bottom:14,right:14}}>
-                      <span style={{background:"rgba(255,255,255,.15)",color:W,fontFamily:"Space Mono,monospace",fontSize:9,padding:"3px 8px",borderRadius:4,letterSpacing:".05em",textTransform:"uppercase"}}>{m.role}</span>
-                    </div>
-                  </div>
-                  {/* Info */}
+{/* Photo area */}
+<div
+  style={{
+    background:`linear-gradient(140deg,${COLORS[i]},${NL})`,
+    height:180,
+    display:"flex",
+    alignItems:"center",
+    justifyContent:"center",
+    position:"relative"
+  }}
+>
+  <div
+    style={{
+      width:110,
+      height:110,
+      borderRadius:"50%",
+      overflow:"hidden",
+      border:"3px solid rgba(255,255,255,.45)",
+      boxShadow:"0 12px 30px rgba(0,0,0,.28)",
+      background:"rgba(255,255,255,.1)"
+    }}
+  >
+    <img
+      src={m.photo}
+      alt={`${m.name} - ${m.role}`}
+      style={{
+        width:"100%",
+        height:"100%",
+        objectFit:"cover",
+        objectPosition:"center",
+        display:"block"
+      }}
+    />
+  </div>
+
+  <div style={{position:"absolute",bottom:14,right:14}}>
+    <span
+      style={{
+        background:"rgba(255,255,255,.15)",
+        color:W,
+        fontFamily:"Space Mono,monospace",
+        fontSize:9,
+        padding:"3px 8px",
+        borderRadius:4,
+        letterSpacing:".05em",
+        textTransform:"uppercase"
+      }}
+    >
+      {m.role}
+    </span>
+  </div>
+</div>                  {/* Info */}
                   <div style={{padding:"22px 24px 26px"}}>
                     <h3 style={{fontFamily:"Playfair Display,serif",color:N,fontSize:20,marginBottom:4,fontWeight:700}}>{m.name}</h3>
                     <p style={{color:T6,fontFamily:"Space Mono,monospace",fontSize:10,marginBottom:14,textTransform:"uppercase",letterSpacing:".06em"}}>{m.role}</p>
