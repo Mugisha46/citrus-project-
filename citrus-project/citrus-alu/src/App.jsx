@@ -403,7 +403,7 @@ function Home({go}){
             </blockquote>
           </Reveal>
           <Reveal delay={180} style={{marginTop:36}}>
-            <DarkBtn label="Learn About Citrus_alu" onClick={()=>{}}/>
+            <DarkBtn label="Learn About Citrus_alu" onClick={()=>go("about")}/>
           </Reveal>
         </div>
       </section>
@@ -453,8 +453,8 @@ function Home({go}){
           </div>
           <Reveal delay={200} style={{textAlign:"center"}}>
             <div style={{display:"flex",gap:14,justifyContent:"center",flexWrap:"wrap"}}>
-              <Btn label="Explore the Full Solution →" onClick={()=>{}}/>
-              <Btn label="Launch YEHUB Prototype" onClick={()=>{}} filled={false}/>
+              <Btn label="Explore the Full Solution →" onClick={()=>go("solution")}/>
+              <Btn label="Launch YEHUB Prototype" onClick={()=>window.open(CITRUS_URL, "_blank", "noopener,noreferrer")}/>
             </div>
           </Reveal>
         </div>
@@ -864,7 +864,6 @@ function Contact(){
               <Logo size={42} color={W}/>
               <p style={{color:"rgba(255,255,255,.52)",fontFamily:"Inter,sans-serif",fontSize:13,marginTop:14,marginBottom:4}}>
                 Citrus_alu · African Leadership University · RWBISD
-              </p>
               <p style={{color:"rgba(255,255,255,.26)",fontFamily:"Space Mono,monospace",fontSize:10,margin:0}}>
                 "We are the fruits of labor that Africa has produced."
               </p>
