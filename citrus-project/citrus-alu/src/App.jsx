@@ -8,7 +8,7 @@ const CITRUS_URL="https://citrus-project-4pqd.vercel.app/";
 
 /* ═══════════════════════════════════════ DATA ════════════════════════════════ */
 const TEAM = [
-  { name:"Achol",  role:"Team Leader",        photo:"/assets/achol3.png",  initials:"A",  color:"#0D2040",
+  { name:"Achol",  role:"Team Leader",        photo:"/assets/achol.png",  initials:"A",  color:"#0D2040",
     bio:"Achol is the heart and driving force of Citrus_alu. As Team Leader, she brings unwavering vision and strategic clarity to every challenge the team faces. Born with a deep connection to South Sudan's story, she channels her passion for economic justice into practical action — rallying her teammates, guiding key decisions, and ensuring the mission stays true to the communities it serves. Her leadership style is both collaborative and decisive, making her the anchor of everything Citrus_alu does." },
   { name:"Elysee", role:"Operations Manager",  photo:"/assets/Elysee.jpg", initials:"El", color:"#0E2448",
     bio:"Elysee is the engine that keeps Citrus_alu moving. As Operations Manager, he transforms big ideas into structured plans, managing timelines, coordinating team activities, and ensuring every deliverable meets the highest standard. His resourcefulness and calm under pressure have been invaluable during the team's most demanding challenges. When something needs to get done, Elysee finds a way — methodically, reliably, and always on time." },
