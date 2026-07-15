@@ -94,8 +94,8 @@ function HeroCarousel(){
   useEffect(()=>{
     const t=setInterval(()=>{
       setFade(false);
-      setTimeout(()=>{setCurr(c=>(c+1)%n);setFade(true);},700);
-    },5000);
+      setTimeout(()=>{setCurr(c=>(c+1)%n);setFade(true);},300);
+    },2000);
     return()=>clearInterval(t);
   },[n]);
   const goTo=(i)=>{setFade(false);setTimeout(()=>{setCurr(i);setFade(true);},400);};
