@@ -864,6 +864,7 @@ function Contact(){
               <Logo size={42} color={W}/>
               <p style={{color:"rgba(255,255,255,.52)",fontFamily:"Inter,sans-serif",fontSize:13,marginTop:14,marginBottom:4}}>
                 Citrus_alu · African Leadership University · RWBISD
+              </p>
               <p style={{color:"rgba(255,255,255,.26)",fontFamily:"Space Mono,monospace",fontSize:10,margin:0}}>
                 "We are the fruits of labor that Africa has produced."
               </p>
