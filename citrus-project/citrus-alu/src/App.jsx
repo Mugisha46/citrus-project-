@@ -8,15 +8,15 @@ const CITRUS_URL="https://citrus-project-4pqd.vercel.app/";
 
 /* ═══════════════════════════════════════ DATA ════════════════════════════════ */
 const TEAM = [
-  { name:"Achol",    role:"Team Leader",        initials:"A",
+  { name:"Achol",  role:"Team Leader",        photo:"/assets/achol3.png",  initials:"A",  color:"#0D2040",
     bio:"Achol is the heart and driving force of Citrus_alu. As Team Leader, she brings unwavering vision and strategic clarity to every challenge the team faces. Born with a deep connection to South Sudan's story, she channels her passion for economic justice into practical action — rallying her teammates, guiding key decisions, and ensuring the mission stays true to the communities it serves. Her leadership style is both collaborative and decisive, making her the anchor of everything Citrus_alu does." },
-  { name:"Elysee",   role:"Operations Manager",  initials:"E",
+  { name:"Elysee", role:"Operations Manager",  photo:"/assets/Elysee.jpg", initials:"El", color:"#0E2448",
     bio:"Elysee is the engine that keeps Citrus_alu moving. As Operations Manager, he transforms big ideas into structured plans, managing timelines, coordinating team activities, and ensuring every deliverable meets the highest standard. His resourcefulness and calm under pressure have been invaluable during the team's most demanding challenges. When something needs to get done, Elysee finds a way — methodically, reliably, and always on time." },
-  { name:"Ian",      role:"Secretary",           initials:"I",
+  { name:"Ian",    role:"Secretary",           photo:"/assets/ian.png",    initials:"I",  color:"#112744",
     bio:"Ian is Citrus_alu's institutional memory and communication anchor. As Secretary, he ensures every decision is documented, every meeting is purposefully structured, and every team member stays informed. His precision and quiet reliability create the organizational foundation that allows the rest of the team to operate with confidence. Ian's consistent contributions keep Citrus_alu aligned from the first challenge to the final deliverable." },
-  { name:"Frank",    role:"Editor",              initials:"F",
+  { name:"Frank",  role:"Editor",              photo:"/assets/frank2.png",  initials:"F",  color:"#152A4E",
     bio:"Frank brings creative precision to everything Citrus_alu produces. As Editor, he shapes the team's voice — refining written work, crafting video content, and building the digital identity that represents Citrus_alu to the world. His eye for detail and storytelling instinct ensure every message is clear, compelling, and true to the mission. Frank also leads the team's website development, bridging creativity and technology in service of the team's goals." },
-  { name:"Eden",     role:"Researcher",          initials:"Ed",
+  { name:"Eden",   role:"Researcher",          photo:"/assets/Eden.png",   initials:"Ed", color:"#1A3260",
     bio:"Eden is Citrus_alu's knowledge architect. As Researcher, he leads the evidence-gathering that grounds the team's solutions in reality — from PESTLE analyses to field interviews with organizations like Jobra, to the documentary exploration of the Hadzabe people of northern Tanzania. His curiosity is insatiable and his rigor uncompromising, ensuring that every claim the team makes is backed by solid research and genuine insight." },
 ];
 
